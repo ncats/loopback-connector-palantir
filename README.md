@@ -1,0 +1,2 @@
+## loopback-connector-palantir [![Build Status](https://travis-ci.com/LabShare/loopback-connector-palantir.svg)](https://travis-ci.com/LabShare/loopback-connector-palantir)
+[**LoopBack**](http://loopback.io/) is a highly-extensible, open-source Node.js framework that enables you to create dynamic end-to-end REST APIs with little or no coding. It also enables you to access data from major relational databases, MongoDB, SOAP and REST APIs.

@@ -4,6 +4,7 @@ const path = require('path');
 const timeout = 20000;
 const juggler = require('loopback-datasource-juggler');
 let DataSource = juggler.DataSource;
+const nock = require('nock');
 
 const config = {
   serviceUrl: process.env.PALANTIR_SERVICE_URL,
@@ -15,6 +16,7 @@ const config = {
 
 global.config = config;
 let db;
+let nockDone;
 
 global.getDataSource = global.getSchema = (customConfig, customClass) => {
   const ctor = customClass || DataSource;
@@ -30,4 +32,29 @@ global.resetDataSourceClass = (ctor) => {
   const promise = db ? db.disconnect() : Promise.resolve();
   db = undefined;
   return promise;
+};
+
+if (!process.env.DISABLE_NOCK) {
+  before(async function() {
+    this.timeout(timeout);
+    nock.back.fixtures = path.join(__dirname, './fixtures/nock-fixtures');
+    nock.back.setMode('record');
+    nock.enableNetConnect();
+    // @ts-ignore
+    global.nock = nock;
+    nockDone = (await nock.back('palantir-connector.json', {
+      before: beforeNock
+    })).nockDone;
+  });
+
+  after(async function() {
+    nockDone();
+    this.timeout(5000);
+  });
+}
+const beforeNock = (scope) => {
+  // ignore request body when matching nock recorded fixtures
+  scope.filteringRequestBody = (body, aRecordedBody) => {
+    return aRecordedBody;
+  };
 };

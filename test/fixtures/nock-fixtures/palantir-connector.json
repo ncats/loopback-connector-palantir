@@ -1,0 +1,222 @@
+[
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/edits/events/objectLocator",
+        "body": {
+            "locator": {
+                "typeId": "hts-projects-axle",
+                "primaryKey": {
+                    "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+                }
+            },
+            "request": {
+                "customMetadata": {},
+                "payload": {
+                    "type": "objectAdded",
+                    "objectAdded": {
+                        "properties": {
+                            "project": "Test-Project-10",
+                            "team": "TEST",
+                            "project_id": 1234,
+                            "policy": "NCATS"
+                        }
+                    }
+                }
+            }
+        },
+        "status": 200,
+        "response": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 06 Jul 2020 20:02:13 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "73",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "94f3033f7386d6d1",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=547",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/load/objectsByLocator",
+        "body": {
+            "typeId": "hts-projects-axle",
+            "primaryKey": {
+                "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+            }
+        },
+        "status": 200,
+        "response": {
+            "objectRid": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+            "objectTypeId": "hts-projects-axle",
+            "title": "Test-Project-10",
+            "properties": {
+                "project": "Test-Project-10",
+                "team": "TEST",
+                "project_id": 1234
+            },
+            "primaryKey": {
+                "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+            },
+            "baseVersion": 3,
+            "editsVersion": 23,
+            "workstateEditsVersion": null
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 06 Jul 2020 20:02:13 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "350",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "fda556ceecb09f43",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=134",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/edits/events/objectLocator",
+        "body": {
+            "locator": {
+                "typeId": "hts-projects-axle",
+                "primaryKey": {
+                    "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+                }
+            },
+            "request": {
+                "customMetadata": {},
+                "payload": {
+                    "type": "objectDeleted",
+                    "objectDeleted": {}
+                }
+            }
+        },
+        "status": 200,
+        "response": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 06 Jul 2020 20:02:13 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "73",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "3f870f2dad951c30",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=425",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/load/objectsByLocator",
+        "body": {
+            "typeId": "hts-projects-axle",
+            "primaryKey": {
+                "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+            }
+        },
+        "status": 204,
+        "response": "",
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 06 Jul 2020 20:02:13 GMT",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "29fdd6bc8f12896e",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=130",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    }
+]

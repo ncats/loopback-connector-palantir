@@ -1,6 +1,6 @@
 [
     {
-        "scope": "https://3.218.102.112:443",
+        "scope": "https://nidap.nih.gov:443",
         "method": "POST",
         "path": "/phonograph2/api/storage/edits/events/objectLocator",
         "body": {
@@ -62,7 +62,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://3.218.102.112:443",
+        "scope": "https://nidap.nih.gov:443",
         "method": "POST",
         "path": "/phonograph2/api/storage/load/objectsByLocator",
         "body": {
@@ -123,7 +123,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://3.218.102.112:443",
+        "scope": "https://nidap.nih.gov:443",
         "method": "POST",
         "path": "/phonograph2/api/storage/edits/events/objectLocator",
         "body": {
@@ -178,7 +178,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://3.218.102.112:443",
+        "scope": "https://nidap.nih.gov:443",
         "method": "POST",
         "path": "/phonograph2/api/storage/load/objectsByLocator",
         "body": {

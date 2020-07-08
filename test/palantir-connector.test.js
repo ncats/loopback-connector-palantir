@@ -42,4 +42,9 @@ describe('Palantir connector tests', () => {
     const findObjectResult = await Project.findById(projectId);
     expect(findObjectResult.__data).to.be.empty;
   });
+
+  it('should get objects by simple 1 column where criteria', async () => {
+    const findObjectResult = await Project.find({where: {team: 'Bioprinting'}});
+    expect(findObjectResult).not.to.be.empty;
+  });
 });

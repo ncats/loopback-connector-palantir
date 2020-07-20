@@ -29,6 +29,11 @@ describe('buildWhere', () => {
     buildWhere = (where) => palantirConnector.buildWhere('Project', where);
   });
 
+  it('should build matchAll query for empty WHERE filter', () => {
+    const query = buildWhere();
+    expect(query).to.eql({type: 'matchAll', matchAll: {}});
+  });
+
   it('should build query for simple key-value WHERE filter', () => {
     const query = buildWhere({team: 'Bioprinting'});
     expect(query).to.eql({

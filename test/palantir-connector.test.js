@@ -43,9 +43,26 @@ describe('Palantir connector tests', () => {
     expect(result.__data).to.eql(expectedResult);
   });
 
-  it('should get object count back', async () => {
+  it('should get object count', async () => {
     const result = await Project.count({team: testProjects[0].team});
     expect(result).to.eql({count: 1});
+  });
+
+  it('should get objects by where filter', async () => {
+    const result = await Project.find({where: {team: testProjects[0].team}, order: 'title'});
+    expect(result[0].__data).to.include({
+      title: 'Test-Project-10',
+      objectTypeId: 'hts-projects-axle',
+      team: 'Connector Test Team',
+      projectId: 1234
+    });
+  });
+
+  it('should get objects by where filter with specific properties', async () => {
+    const result = await Project.find({where: {team: testProjects[0].team}, fields: {team: true}});
+    expect(result[0].__data).to.eql({
+      team: 'Connector Test Team'
+    });
   });
 
   it('should delete object', async () => {

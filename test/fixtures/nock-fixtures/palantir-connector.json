@@ -31,7 +31,7 @@
             "Server",
             "nginx",
             "Date",
-            "Mon, 20 Jul 2020 20:09:39 GMT",
+            "Wed, 22 Jul 2020 16:55:37 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
@@ -39,7 +39,7 @@
             "Connection",
             "close",
             "X-B3-TraceId",
-            "d6d73aad2afc5129",
+            "7f94db5df4dc3a6d",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -49,7 +49,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=267",
+            "server;dur=460",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -85,14 +85,14 @@
                 "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
             },
             "baseVersion": 3,
-            "editsVersion": 53,
+            "editsVersion": 81,
             "workstateEditsVersion": null
         },
         "rawHeaders": [
             "Server",
             "nginx",
             "Date",
-            "Mon, 20 Jul 2020 20:09:42 GMT",
+            "Wed, 22 Jul 2020 16:55:39 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
@@ -100,7 +100,7 @@
             "Connection",
             "close",
             "X-B3-TraceId",
-            "64f39eafd29eb5bb",
+            "6dc77e4d3ae64e69",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -110,7 +110,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=91",
+            "server;dur=159",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -145,13 +145,13 @@
             "totalHits": 1,
             "hits": [],
             "aggregations": {},
-            "nextPageToken": "v1.d4478c5c-492a-4b4b-88d9-6fcb256a2ec8.0"
+            "nextPageToken": "v1.9737a617-2d7d-4b10-ba95-7d58e250e389.0"
         },
         "rawHeaders": [
             "Server",
             "nginx",
             "Date",
-            "Mon, 20 Jul 2020 20:09:42 GMT",
+            "Wed, 22 Jul 2020 16:55:39 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
@@ -159,7 +159,7 @@
             "Connection",
             "close",
             "X-B3-TraceId",
-            "660fcf794fc99295",
+            "c1500da1dec1065d",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -169,7 +169,175 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=57",
+            "server;dur=103",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/objects/search/objects",
+        "body": {
+            "objectTypes": [
+                "hts-projects-axle"
+            ],
+            "filter": {
+                "type": "terms",
+                "terms": {
+                    "terms": [
+                        "Connector Test Team"
+                    ],
+                    "field": "team.raw"
+                }
+            },
+            "sort": [
+                {
+                    "project.raw": {
+                        "order": "asc"
+                    }
+                }
+            ]
+        },
+        "status": 200,
+        "response": {
+            "totalHits": 1,
+            "hits": [
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-10",
+                        "properties": {
+                            "project": "Test-Project-10",
+                            "team": "Connector Test Team",
+                            "project_id": 1234
+                        },
+                        "primaryKey": {
+                            "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 81,
+                        "workstateEditsVersion": null
+                    },
+                    "highlight": {}
+                }
+            ],
+            "aggregations": {},
+            "nextPageToken": null
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 22 Jul 2020 16:55:40 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "455",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "fd8d936996193905",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=99",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/objects/search/objects",
+        "body": {
+            "objectTypes": [
+                "hts-projects-axle"
+            ],
+            "filter": {
+                "type": "terms",
+                "terms": {
+                    "terms": [
+                        "Connector Test Team"
+                    ],
+                    "field": "team.raw"
+                }
+            },
+            "propertySelector": {
+                "propertyWhitelist": [
+                    "team"
+                ]
+            }
+        },
+        "status": 200,
+        "response": {
+            "totalHits": 1,
+            "hits": [
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-10",
+                        "properties": {
+                            "team": "Connector Test Team"
+                        },
+                        "primaryKey": {
+                            "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 81,
+                        "workstateEditsVersion": null
+                    },
+                    "highlight": {}
+                }
+            ],
+            "aggregations": {},
+            "nextPageToken": null
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 22 Jul 2020 16:55:40 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "409",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "7f762b8c1af0887c",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=93",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -206,7 +374,7 @@
             "Server",
             "nginx",
             "Date",
-            "Mon, 20 Jul 2020 20:09:42 GMT",
+            "Wed, 22 Jul 2020 16:55:40 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
@@ -214,7 +382,7 @@
             "Connection",
             "close",
             "X-B3-TraceId",
-            "0971e117c615b564",
+            "7e6c0ad0f00753dc",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -224,7 +392,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=288",
+            "server;dur=331",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -252,11 +420,11 @@
             "Server",
             "nginx",
             "Date",
-            "Mon, 20 Jul 2020 20:09:42 GMT",
+            "Wed, 22 Jul 2020 16:55:40 GMT",
             "Connection",
             "close",
             "X-B3-TraceId",
-            "1913404e67386bd3",
+            "89d98564cdd4a79a",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -266,7 +434,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=83",
+            "server;dur=148",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -1003,7 +1171,7 @@
             "Server",
             "nginx",
             "Date",
-            "Mon, 20 Jul 2020 20:09:42 GMT",
+            "Wed, 22 Jul 2020 16:55:41 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
@@ -1013,7 +1181,7 @@
             "Vary",
             "Accept-Encoding",
             "X-B3-TraceId",
-            "75ed1e0554972b3e",
+            "6996c4278a71086b",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -1023,7 +1191,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=71",
+            "server;dur=83",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",

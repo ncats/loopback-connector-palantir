@@ -8,6 +8,14 @@ describe('Palantir connector tests', () => {
     title: 'Test-Project-10',
     team: 'Connector Test Team',
     projectId: 1234
+  }, {
+    title: 'Test-Project-11',
+    team: 'Connector Test Team',
+    projectId: 2345
+  }, {
+    title: 'Test-Project-12',
+    team: 'Connector Test Team',
+    projectId: 3456
   }];
 
   before(() => {
@@ -45,7 +53,7 @@ describe('Palantir connector tests', () => {
 
   it('should get object count', async () => {
     const result = await Project.count({team: testProjects[0].team});
-    expect(result).to.eql({count: 1});
+    expect(result).to.eql({count: 3});
   });
 
   it('should get objects by where filter', async () => {
@@ -65,15 +73,18 @@ describe('Palantir connector tests', () => {
     });
   });
 
-  it('should delete object', async () => {
+  it('should delete object by id', async () => {
     await Project.deleteById(projectId);
+    await delay(2000);
     const findObjectResult = await Project.findById(projectId);
     expect(findObjectResult.__data).to.be.empty;
   });
 
-  it('should get objects by simple 1 column where criteria', async () => {
-    const findObjectResult = await Project.find({where: {team: 'Bioprinting'}});
-    expect(findObjectResult).not.to.be.empty;
+  it('should delete object by criteria', async () => {
+    await Project.deleteAll({team: testProjects[0].team});
+    await delay(2000);
+    const findObjectResult = await Project.find({where: {team: testProjects[0].team}});
+    expect(findObjectResult).to.be.empty;
   });
 });
 

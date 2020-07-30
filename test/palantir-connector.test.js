@@ -73,6 +73,25 @@ describe('Palantir connector tests', () => {
     });
   });
 
+  it('should update object by id', async () => {
+    const newProject = {
+      title: 'Test-Project-10-modified',
+      team: 'Connector Test Team',
+      projectId: 12345678
+    };
+    await Project.replaceById(projectId, newProject);
+    await delay(2000);
+    const findObjectResult = await Project.findById(projectId);
+    expect(findObjectResult.__data).to.include(newProject);
+  });
+
+  it('should update object by criteria', async () => {
+    await Project.update({team: testProjects[0].team}, {team: 'Connector Test Team Modified'});
+    await delay(2000);
+    const findObjectResults = await Project.find({where: {team: 'Connector Test Team Modified'}});
+    expect(findObjectResults.length).to.eql(3);
+  });
+
   it('should delete object by id', async () => {
     await Project.deleteById(projectId);
     await delay(2000);
@@ -81,14 +100,17 @@ describe('Palantir connector tests', () => {
   });
 
   it('should delete object by criteria', async () => {
-    await Project.deleteAll({team: testProjects[0].team});
+    await Project.deleteAll({team: 'Connector Test Team Modified'});
     await delay(2000);
-    const findObjectResult = await Project.find({where: {team: testProjects[0].team}});
+    const findObjectResult = await Project.find({where: {team: 'Connector Test Team Modified'}});
     expect(findObjectResult).to.be.empty;
   });
 });
 
 async function delay(ms) {
+  if (!process.env.DISABLE_NOCK) {
+    return;
+  }
   return new Promise(resolve => {
     setTimeout(resolve, ms);
   });

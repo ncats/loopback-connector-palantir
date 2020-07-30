@@ -7,6 +7,130 @@
             "locator": {
                 "typeId": "hts-projects-axle",
                 "primaryKey": {
+                    "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
+                }
+            },
+            "request": {
+                "customMetadata": {},
+                "payload": {
+                    "type": "objectAdded",
+                    "objectAdded": {
+                        "properties": {
+                            "project": "Test-Project-12",
+                            "team": "Connector Test Team",
+                            "project_id": 3456,
+                            "policy": "NCATS"
+                        }
+                    }
+                }
+            }
+        },
+        "status": 200,
+        "response": "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65",
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:28 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "73",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "43faf597cf6642c6",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=254",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/edits/events/objectLocator",
+        "body": {
+            "locator": {
+                "typeId": "hts-projects-axle",
+                "primaryKey": {
+                    "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
+                }
+            },
+            "request": {
+                "customMetadata": {},
+                "payload": {
+                    "type": "objectAdded",
+                    "objectAdded": {
+                        "properties": {
+                            "project": "Test-Project-11",
+                            "team": "Connector Test Team",
+                            "project_id": 2345,
+                            "policy": "NCATS"
+                        }
+                    }
+                }
+            }
+        },
+        "status": 200,
+        "response": "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:28 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "73",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "c21d2d86b4b5c338",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=380",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/edits/events/objectLocator",
+        "body": {
+            "locator": {
+                "typeId": "hts-projects-axle",
+                "primaryKey": {
                     "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
                 }
             },
@@ -31,7 +155,7 @@
             "Server",
             "nginx",
             "Date",
-            "Wed, 22 Jul 2020 16:55:37 GMT",
+            "Thu, 30 Jul 2020 20:40:28 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
@@ -39,7 +163,7 @@
             "Connection",
             "close",
             "X-B3-TraceId",
-            "7f94db5df4dc3a6d",
+            "2d808086cc536bba",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -49,7 +173,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=460",
+            "server;dur=514",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -85,22 +209,23 @@
                 "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
             },
             "baseVersion": 3,
-            "editsVersion": 81,
-            "workstateEditsVersion": null
+            "editsVersion": 159,
+            "workstateEditsVersion": null,
+            "entityVersion": "djEuMy4xNTku"
         },
         "rawHeaders": [
             "Server",
             "nginx",
             "Date",
-            "Wed, 22 Jul 2020 16:55:39 GMT",
+            "Thu, 30 Jul 2020 20:40:30 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
-            "365",
+            "397",
             "Connection",
             "close",
             "X-B3-TraceId",
-            "6dc77e4d3ae64e69",
+            "f6ed2c3f69f91975",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -110,7 +235,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=159",
+            "server;dur=121",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -142,16 +267,16 @@
         },
         "status": 200,
         "response": {
-            "totalHits": 1,
+            "totalHits": 3,
             "hits": [],
             "aggregations": {},
-            "nextPageToken": "v1.9737a617-2d7d-4b10-ba95-7d58e250e389.0"
+            "nextPageToken": "v1.a277e5f8-0f98-4b00-8185-c6745e3155f8.0"
         },
         "rawHeaders": [
             "Server",
             "nginx",
             "Date",
-            "Wed, 22 Jul 2020 16:55:39 GMT",
+            "Thu, 30 Jul 2020 20:40:30 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
@@ -159,7 +284,7 @@
             "Connection",
             "close",
             "X-B3-TraceId",
-            "c1500da1dec1065d",
+            "565b4e4cbe6444fe",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -169,7 +294,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=103",
+            "server;dur=60",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -208,7 +333,7 @@
         },
         "status": 200,
         "response": {
-            "totalHits": 1,
+            "totalHits": 3,
             "hits": [
                 {
                     "object": {
@@ -224,8 +349,49 @@
                             "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
                         },
                         "baseVersion": 3,
-                        "editsVersion": 81,
-                        "workstateEditsVersion": null
+                        "editsVersion": 159,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy4xNTku"
+                    },
+                    "highlight": {}
+                },
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-11",
+                        "properties": {
+                            "project": "Test-Project-11",
+                            "team": "Connector Test Team",
+                            "project_id": 2345
+                        },
+                        "primaryKey": {
+                            "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 56,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ni4="
+                    },
+                    "highlight": {}
+                },
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-12",
+                        "properties": {
+                            "project": "Test-Project-12",
+                            "team": "Connector Test Team",
+                            "project_id": 3456
+                        },
+                        "primaryKey": {
+                            "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 56,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ni4="
                     },
                     "highlight": {}
                 }
@@ -237,15 +403,15 @@
             "Server",
             "nginx",
             "Date",
-            "Wed, 22 Jul 2020 16:55:40 GMT",
+            "Thu, 30 Jul 2020 20:40:30 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
-            "455",
+            "1333",
             "Connection",
             "close",
             "X-B3-TraceId",
-            "fd8d936996193905",
+            "6f488b069759a8c6",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -255,7 +421,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=99",
+            "server;dur=59",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -292,8 +458,44 @@
         },
         "status": 200,
         "response": {
-            "totalHits": 1,
+            "totalHits": 3,
             "hits": [
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-12",
+                        "properties": {
+                            "team": "Connector Test Team"
+                        },
+                        "primaryKey": {
+                            "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 56,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ni4="
+                    },
+                    "highlight": {}
+                },
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-11",
+                        "properties": {
+                            "team": "Connector Test Team"
+                        },
+                        "primaryKey": {
+                            "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 56,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ni4="
+                    },
+                    "highlight": {}
+                },
                 {
                     "object": {
                         "objectRid": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
@@ -306,8 +508,9 @@
                             "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
                         },
                         "baseVersion": 3,
-                        "editsVersion": 81,
-                        "workstateEditsVersion": null
+                        "editsVersion": 159,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy4xNTku"
                     },
                     "highlight": {}
                 }
@@ -319,15 +522,15 @@
             "Server",
             "nginx",
             "Date",
-            "Wed, 22 Jul 2020 16:55:40 GMT",
+            "Thu, 30 Jul 2020 20:40:31 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
-            "409",
+            "1195",
             "Connection",
             "close",
             "X-B3-TraceId",
-            "7f762b8c1af0887c",
+            "cc57a4ca4a595fc9",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -337,7 +540,473 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=93",
+            "server;dur=48",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/edits/events/objectLocator",
+        "body": {
+            "locator": {
+                "typeId": "hts-projects-axle",
+                "primaryKey": {
+                    "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+                }
+            },
+            "request": {
+                "customMetadata": {},
+                "payload": {
+                    "type": "objectModified",
+                    "objectModified": {
+                        "properties": {
+                            "project": "Test-Project-10-modified",
+                            "team": "Connector Test Team",
+                            "project_id": 12345678
+                        }
+                    }
+                }
+            }
+        },
+        "status": 200,
+        "response": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:31 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "73",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "fd4de912323f1bc4",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=241",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/load/objectsByLocator",
+        "body": {
+            "typeId": "hts-projects-axle",
+            "primaryKey": {
+                "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+            }
+        },
+        "status": 200,
+        "response": {
+            "objectRid": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+            "objectTypeId": "hts-projects-axle",
+            "title": "Test-Project-10-modified",
+            "properties": {
+                "project": "Test-Project-10-modified",
+                "team": "Connector Test Team",
+                "project_id": 12345678
+            },
+            "primaryKey": {
+                "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+            },
+            "baseVersion": 3,
+            "editsVersion": 160,
+            "workstateEditsVersion": null,
+            "entityVersion": "djEuMy4xNjAu"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:33 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "419",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "4b6400d246999529",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=78",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/objects/search/objects",
+        "body": {
+            "objectTypes": [
+                "hts-projects-axle"
+            ],
+            "filter": {
+                "type": "terms",
+                "terms": {
+                    "terms": [
+                        "Connector Test Team"
+                    ],
+                    "field": "team.raw"
+                }
+            }
+        },
+        "status": 200,
+        "response": {
+            "totalHits": 3,
+            "hits": [
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-12",
+                        "properties": {
+                            "project": "Test-Project-12",
+                            "team": "Connector Test Team",
+                            "project_id": 3456
+                        },
+                        "primaryKey": {
+                            "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 56,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ni4="
+                    },
+                    "highlight": {}
+                },
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-11",
+                        "properties": {
+                            "project": "Test-Project-11",
+                            "team": "Connector Test Team",
+                            "project_id": 2345
+                        },
+                        "primaryKey": {
+                            "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 56,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ni4="
+                    },
+                    "highlight": {}
+                },
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-10-modified",
+                        "properties": {
+                            "project": "Test-Project-10-modified",
+                            "team": "Connector Test Team",
+                            "project_id": 12345678
+                        },
+                        "primaryKey": {
+                            "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 160,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy4xNjAu"
+                    },
+                    "highlight": {}
+                }
+            ],
+            "aggregations": {},
+            "nextPageToken": null
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:33 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "1355",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "b27775f5ca6905ee",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=47",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/edits/bulk/events/objectLocators",
+        "body": [
+            {
+                "locator": {
+                    "typeId": "hts-projects-axle",
+                    "primaryKey": {
+                        "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
+                    }
+                },
+                "request": {
+                    "customMetadata": {},
+                    "payload": {
+                        "type": "objectModified",
+                        "objectModified": {
+                            "properties": {
+                                "team": "Connector Test Team Modified"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "locator": {
+                    "typeId": "hts-projects-axle",
+                    "primaryKey": {
+                        "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
+                    }
+                },
+                "request": {
+                    "customMetadata": {},
+                    "payload": {
+                        "type": "objectModified",
+                        "objectModified": {
+                            "properties": {
+                                "team": "Connector Test Team Modified"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "locator": {
+                    "typeId": "hts-projects-axle",
+                    "primaryKey": {
+                        "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+                    }
+                },
+                "request": {
+                    "customMetadata": {},
+                    "payload": {
+                        "type": "objectModified",
+                        "objectModified": {
+                            "properties": {
+                                "team": "Connector Test Team Modified"
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "status": 200,
+        "response": [
+            "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65",
+            "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
+            "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a"
+        ],
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:33 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "223",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "66c9937d924ba586",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=308",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/objects/search/objects",
+        "body": {
+            "objectTypes": [
+                "hts-projects-axle"
+            ],
+            "filter": {
+                "type": "terms",
+                "terms": {
+                    "terms": [
+                        "Connector Test Team Modified"
+                    ],
+                    "field": "team.raw"
+                }
+            }
+        },
+        "status": 200,
+        "response": {
+            "totalHits": 3,
+            "hits": [
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-11",
+                        "properties": {
+                            "project": "Test-Project-11",
+                            "team": "Connector Test Team Modified",
+                            "project_id": 2345
+                        },
+                        "primaryKey": {
+                            "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 57,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ny4="
+                    },
+                    "highlight": {}
+                },
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-12",
+                        "properties": {
+                            "project": "Test-Project-12",
+                            "team": "Connector Test Team Modified",
+                            "project_id": 3456
+                        },
+                        "primaryKey": {
+                            "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 57,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ny4="
+                    },
+                    "highlight": {}
+                },
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-10-modified",
+                        "properties": {
+                            "project": "Test-Project-10-modified",
+                            "team": "Connector Test Team Modified",
+                            "project_id": 12345678
+                        },
+                        "primaryKey": {
+                            "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 161,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy4xNjEu"
+                    },
+                    "highlight": {}
+                }
+            ],
+            "aggregations": {},
+            "nextPageToken": null
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:36 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "1382",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "130274d4180e31dc",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=84",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -374,7 +1043,7 @@
             "Server",
             "nginx",
             "Date",
-            "Wed, 22 Jul 2020 16:55:40 GMT",
+            "Thu, 30 Jul 2020 20:40:36 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
@@ -382,7 +1051,7 @@
             "Connection",
             "close",
             "X-B3-TraceId",
-            "7e6c0ad0f00753dc",
+            "6225eb90fa0a3001",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -392,7 +1061,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=331",
+            "server;dur=216",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -420,11 +1089,11 @@
             "Server",
             "nginx",
             "Date",
-            "Wed, 22 Jul 2020 16:55:40 GMT",
+            "Thu, 30 Jul 2020 20:40:38 GMT",
             "Connection",
             "close",
             "X-B3-TraceId",
-            "89d98564cdd4a79a",
+            "b38f4c4d4874ae39",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -434,7 +1103,7 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=148",
+            "server;dur=85",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",
@@ -458,7 +1127,7 @@
                 "type": "terms",
                 "terms": {
                     "terms": [
-                        "Bioprinting"
+                        "Connector Test Team Modified"
                     ],
                     "field": "team.raw"
                 }
@@ -466,700 +1135,45 @@
         },
         "status": 200,
         "response": {
-            "totalHits": 15,
+            "totalHits": 2,
             "hits": [
                 {
                     "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.9b326450-4910-4f96-be8c-d16cb7848f77",
+                        "objectRid": "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
                         "objectTypeId": "hts-projects-axle",
-                        "title": "IKB12",
+                        "title": "Test-Project-11",
                         "properties": {
-                            "project_type": "project12256",
-                            "user_id_list": [
-                                "van"
-                            ],
-                            "project": "IKB12",
-                            "team": "Bioprinting",
-                            "project_join": "trhantagonist1788",
-                            "first_name_list": [
-                                "van"
-                            ],
-                            "full_name": [
-                                "manisha kumari"
-                            ],
-                            "email_list": []
+                            "project": "Test-Project-11",
+                            "team": "Connector Test Team Modified",
+                            "project_id": 2345
                         },
                         "primaryKey": {
-                            "project_uid": "478441e449d7ddc51c62ea5fe15cfbb7"
+                            "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
                         },
                         "baseVersion": 3,
-                        "editsVersion": 2,
-                        "workstateEditsVersion": null
+                        "editsVersion": 57,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ny4="
                     },
                     "highlight": {}
                 },
                 {
                     "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.e13ebbcc-3563-4039-94ac-1614810789a3",
+                        "objectRid": "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65",
                         "objectTypeId": "hts-projects-axle",
-                        "title": "3D-HEAL_Cortical_Profiling-Stemonix",
+                        "title": "Test-Project-12",
                         "properties": {
-                            "project_type": "project",
-                            "user_id_list": [
-                                "pittengerst",
-                                "fordscheimersl",
-                                "ferrerm",
-                                "hux6",
-                                "leeemm",
-                                "boutinme"
-                            ],
-                            "last_name_list": [
-                                "Pittenger",
-                                "Ford-Scheimer",
-                                "Ferrer",
-                                "Hu",
-                                "Lee",
-                                "Boutin"
-                            ],
-                            "project": "3D-HEAL_Cortical_Profiling-Stemonix",
-                            "team": "Bioprinting",
-                            "project_join": "3dheal_cortical_profilingstemonix",
-                            "first_name_list": [
-                                "Steven",
-                                "Stephanie",
-                                "Marc",
-                                "Xin",
-                                "Emily",
-                                "Molly"
-                            ],
-                            "full_name": [
-                                "Steven Pittenger",
-                                "Stephanie Ford-Scheimer",
-                                "Marc Ferrer",
-                                "Xin Hu",
-                                "Emily Lee",
-                                "Molly Boutin"
-                            ],
-                            "email_list": [
-                                "pittengerst@nih.gov",
-                                "ferrerm@mail.nih.gov",
-                                "hux61@mail.nih.gov",
-                                "leeemm@nih.gov",
-                                "boutinme@mail.nih.gov"
-                            ],
-                            "project_id": 11726
+                            "project": "Test-Project-12",
+                            "team": "Connector Test Team Modified",
+                            "project_id": 3456
                         },
                         "primaryKey": {
-                            "project_uid": "96b3c69b4df342794f015f221e3308a6"
+                            "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
                         },
                         "baseVersion": 3,
-                        "editsVersion": 0,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.435728db-419e-4b99-bf8b-3cab755e36c2",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "3D-Skin_Atopic_Dermatitis-Ferrer",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [],
-                            "project": "3D-Skin_Atopic_Dermatitis-Ferrer",
-                            "team": "Bioprinting",
-                            "project_join": "eilm44gr8bm",
-                            "first_name_list": [],
-                            "full_name": [],
-                            "email_list": []
-                        },
-                        "primaryKey": {
-                            "project_uid": "efa5c3415746cdd1502a3ad8ce3dbfe0"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 1,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.2d73271c-c7c1-4d57-b502-30bcacc7bb4b",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "ri.phonograph2-objects.main.object.2d73271c-c7c1-4d57-b502-30bcacc7bb4b",
-                        "properties": {
-                            "project_type": "project1226777",
-                            "user_id_list": [],
-                            "project": "",
-                            "team": "Bioprinting",
-                            "project_join": "ca82vigc44v",
-                            "first_name_list": [],
-                            "full_name": [],
-                            "email_list": []
-                        },
-                        "primaryKey": {
-                            "project_uid": "8ce0a1d2a1b416c8671c3545cad2a72e"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 1,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.829a4087-4a66-40c5-afd3-62245e4cb653",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "ncgca Optical-Filters 123456",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [
-                                "manisha"
-                            ],
-                            "project": "ncgca Optical-Filters 123456",
-                            "team": "Bioprinting",
-                            "project_join": "optical-filters_123456",
-                            "first_name_list": [
-                                "manisha"
-                            ],
-                            "full_name": [
-                                "manisha kumari"
-                            ],
-                            "email_list": [
-                                "kewal.prasad@labshare.org"
-                            ],
-                            "project_id": 491
-                        },
-                        "primaryKey": {
-                            "project_uid": "930bae4eb2cdde3b0c525c2970f729a0"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 1,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.bd73e973-226f-4d61-ad1b-17a6c52ea4b3",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "3D Skin Tox Testing",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [
-                                "zarkoobh2",
-                                "wilsonkm2",
-                                "subramaniamr",
-                                "liux26",
-                                "ferrerm"
-                            ],
-                            "last_name_list": [
-                                "Zarkoob",
-                                "Wilson",
-                                "Subramaniam",
-                                "Liu",
-                                "Ferrer"
-                            ],
-                            "project": "3D Skin Tox Testing",
-                            "team": "Bioprinting",
-                            "project_join": "3dskintoxtesting",
-                            "first_name_list": [
-                                "Hoda",
-                                "Kelli",
-                                "Ramesh",
-                                "Lucia",
-                                "Marc"
-                            ],
-                            "full_name": [
-                                "Hoda Zarkoob",
-                                "Kelli Wilson",
-                                "Ramesh Subramaniam",
-                                "Lucia Liu",
-                                "Marc Ferrer"
-                            ],
-                            "email_list": [
-                                "wilsonkm2@mail.nih.gov",
-                                "subramaniamr@mail.nih.gov",
-                                "liux26@mail.nih.gov",
-                                "ferrerm@mail.nih.gov"
-                            ],
-                            "project_id": 9046
-                        },
-                        "primaryKey": {
-                            "project_uid": "e083e1c9f5decdaecc4661b891fa6aa5"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 0,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.b990913e-6344-4856-8c50-c67bf23c1ccc",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "ri.phonograph2-objects.main.object.b990913e-6344-4856-8c50-c67bf23c1ccc",
-                        "properties": {
-                            "project_type": "project1226777",
-                            "user_id_list": [],
-                            "project": "",
-                            "team": "Bioprinting",
-                            "project_join": "trhantagonist15667",
-                            "first_name_list": [],
-                            "full_name": [],
-                            "email_list": [
-                                "manisha.kumari@nih.gov"
-                            ]
-                        },
-                        "primaryKey": {
-                            "project_uid": "2cfe3b172999757b738c9e495128508b"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 3,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.11344503-11e0-40d9-9c44-5fc27e1c364a",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "3D Bioprinting Psoriasis",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [
-                                "leeemm",
-                                "derrke",
-                                "derrpj",
-                                "ferrerm"
-                            ],
-                            "last_name_list": [
-                                "Lee",
-                                "Derr",
-                                "Derr",
-                                "Ferrer"
-                            ],
-                            "project": "3D Bioprinting Psoriasis",
-                            "team": "Bioprinting",
-                            "project_join": "3dbioprintingpsoriasis",
-                            "first_name_list": [
-                                "Emily",
-                                "Kristy",
-                                "Paige",
-                                "Marc"
-                            ],
-                            "full_name": [
-                                "Emily Lee",
-                                "Kristy Derr",
-                                "Paige Derr",
-                                "Marc Ferrer"
-                            ],
-                            "email_list": [
-                                "leeemm@nih.gov",
-                                "derrke@mail.nih.gov",
-                                "derrpj@mail.nih.gov",
-                                "ferrerm@mail.nih.gov"
-                            ],
-                            "project_id": 9726
-                        },
-                        "primaryKey": {
-                            "project_uid": "8c00a5c6e07a909e3978da2daaf0bde9"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 0,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.447bda16-ec60-48cf-8557-b410f0c20a44",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "3D-Skin_Atopic_Dermatitis-Ferrer",
-                        "properties": {
-                            "project_type": "project1226777",
-                            "user_id_list": [
-                                "zarkoobh2",
-                                "ferrerm"
-                            ],
-                            "last_name_list": [
-                                "Zarkoob",
-                                "Ferrer"
-                            ],
-                            "project": "3D-Skin_Atopic_Dermatitis-Ferrer",
-                            "team": "Bioprinting",
-                            "project_join": "3dskin_atopic_dermatitisferrer",
-                            "first_name_list": [
-                                "Hoda",
-                                "Marc"
-                            ],
-                            "full_name": [
-                                "Hoda Zarkoob",
-                                "Marc Ferrer"
-                            ],
-                            "email_list": [
-                                "ferrerm@mail.nih.gov"
-                            ],
-                            "project_id": 11446
-                        },
-                        "primaryKey": {
-                            "project_uid": "00d125eb3a119ed644f9831be8c30158"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 1,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.c0b3a732-7c56-4041-ad2f-dae598041cb3",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "3D Bioprinting General Supplies",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [
-                                "robertssl",
-                                "leeemm",
-                                "jungoj",
-                                "ramseun",
-                                "kundus5",
-                                "fuj4",
-                                "tungy2",
-                                "derrpj",
-                                "derrke",
-                                "boutinme",
-                                "songm5",
-                                "ferrerm"
-                            ],
-                            "last_name_list": [
-                                "Roberts",
-                                "Lee",
-                                "Jung",
-                                "Ramseur",
-                                "Kundu",
-                                "Fu",
-                                "Tung",
-                                "Derr",
-                                "Derr",
-                                "Boutin",
-                                "Song",
-                                "Ferrer"
-                            ],
-                            "project": "3D Bioprinting General Supplies",
-                            "team": "Bioprinting",
-                            "project_join": "3dbioprintinggeneralsupplies",
-                            "first_name_list": [
-                                "Sadie",
-                                "Emily",
-                                "Olive",
-                                "Nick",
-                                "Srikanya",
-                                "Jiaqi",
-                                "YenTing",
-                                "Paige",
-                                "Kristy",
-                                "Molly",
-                                "Min Jae",
-                                "Marc"
-                            ],
-                            "full_name": [
-                                "Sadie Roberts",
-                                "Emily Lee",
-                                "Olive Jung",
-                                "Nick Ramseur",
-                                "Srikanya Kundu",
-                                "Jiaqi Fu",
-                                "YenTing Tung",
-                                "Paige Derr",
-                                "Kristy Derr",
-                                "Molly Boutin",
-                                "Min Jae Song",
-                                "Marc Ferrer"
-                            ],
-                            "email_list": [
-                                "leeemm@nih.gov",
-                                "jungoj@mail.nih.gov",
-                                "ramseun@nih.gov",
-                                "srikanya.kundu@nih.gov",
-                                "fuj4@mail.nih.gov",
-                                "tungy2@mail.nih.gov",
-                                "derrpj@mail.nih.gov",
-                                "derrke@mail.nih.gov",
-                                "boutinme@mail.nih.gov",
-                                "songm5@nih.gov",
-                                "ferrerm@mail.nih.gov"
-                            ],
-                            "project_id": 11426
-                        },
-                        "primaryKey": {
-                            "project_uid": "18aea86064e99ccd67cc39542ff77de7"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 0,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.4e83cfd3-5fd5-42da-8221-71b66499639a",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "3D Skin SCC",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [
-                                "zhaxiaoh",
-                                "derrpj",
-                                "derrke",
-                                "ferrerm",
-                                "zarkoobh2"
-                            ],
-                            "last_name_list": [
-                                "Zhang",
-                                "Derr",
-                                "Derr",
-                                "Ferrer",
-                                "Zarkoob"
-                            ],
-                            "project": "3D Skin SCC",
-                            "team": "Bioprinting",
-                            "project_join": "3dskinscc",
-                            "first_name_list": [
-                                "Xiaohu",
-                                "Paige",
-                                "Kristy",
-                                "Marc",
-                                "Hoda"
-                            ],
-                            "full_name": [
-                                "Xiaohu Zhang",
-                                "Paige Derr",
-                                "Kristy Derr",
-                                "Marc Ferrer",
-                                "Hoda Zarkoob"
-                            ],
-                            "email_list": [
-                                "zhaxiaoh@mail.nih.gov",
-                                "derrpj@mail.nih.gov",
-                                "derrke@mail.nih.gov",
-                                "ferrerm@mail.nih.gov"
-                            ],
-                            "project_id": 11066,
-                            "original_uid": "3D Skin SCC"
-                        },
-                        "primaryKey": {
-                            "project_uid": "1dca770ead694055878711e8eb75a501"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 0,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.85b2ffca-d090-4947-b278-1d466d090144",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "3D-TSC_NPC-Ramesh",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [
-                                "wilsonkm2",
-                                "ferrerm",
-                                "zhaxiaoh"
-                            ],
-                            "last_name_list": [
-                                "Wilson",
-                                "Ferrer",
-                                "Zhang"
-                            ],
-                            "project": "3D-TSC_NPC-Ramesh",
-                            "team": "Bioprinting",
-                            "project_join": "3dtsc_npcramesh",
-                            "first_name_list": [
-                                "Kelli",
-                                "Marc",
-                                "Xiaohu"
-                            ],
-                            "full_name": [
-                                "Kelli Wilson",
-                                "Marc Ferrer",
-                                "Xiaohu Zhang"
-                            ],
-                            "email_list": [
-                                "wilsonkm2@mail.nih.gov",
-                                "ferrerm@mail.nih.gov",
-                                "zhaxiaoh@mail.nih.gov"
-                            ],
-                            "project_id": 11628,
-                            "original_uid": "3D-TSC_NPC-Ramesh"
-                        },
-                        "primaryKey": {
-                            "project_uid": "47a3bdaf79c2666b47b6619cb77468df"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 0,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.4e598704-9985-4e89-a900-71e895cb7eec",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "3D angiogenesis",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [
-                                "tungy2",
-                                "fuj4",
-                                "songm5",
-                                "ferrerm"
-                            ],
-                            "last_name_list": [
-                                "Tung",
-                                "Fu",
-                                "Song",
-                                "Ferrer"
-                            ],
-                            "project": "3D angiogenesis",
-                            "team": "Bioprinting",
-                            "project_join": "3dangiogenesis",
-                            "first_name_list": [
-                                "YenTing",
-                                "Jiaqi",
-                                "Min Jae",
-                                "Marc"
-                            ],
-                            "full_name": [
-                                "YenTing Tung",
-                                "Jiaqi Fu",
-                                "Min Jae Song",
-                                "Marc Ferrer"
-                            ],
-                            "email_list": [
-                                "tungy2@mail.nih.gov",
-                                "fuj4@mail.nih.gov",
-                                "songm5@nih.gov",
-                                "ferrerm@mail.nih.gov"
-                            ],
-                            "project_id": 9966
-                        },
-                        "primaryKey": {
-                            "project_uid": "64e13beb8f807d6ad82e68e8d094d7b8"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 0,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.391353d1-c406-4b89-9e40-6923f549bba3",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "HEAL 3D Bioprinting",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [
-                                "jungoj",
-                                "leeemm",
-                                "mcclellandp",
-                                "wilsonkm2",
-                                "tungy2",
-                                "kundus5",
-                                "voann",
-                                "songm5",
-                                "boutinme",
-                                "ferrerm"
-                            ],
-                            "last_name_list": [
-                                "Jung",
-                                "Lee",
-                                "McClelland",
-                                "Wilson",
-                                "Tung",
-                                "Kundu",
-                                "Vo",
-                                "Song",
-                                "Boutin",
-                                "Ferrer"
-                            ],
-                            "project": "HEAL 3D Bioprinting",
-                            "team": "Bioprinting",
-                            "project_join": "heal3dbioprinting",
-                            "first_name_list": [
-                                "Olive",
-                                "Emily",
-                                "Peggy",
-                                "Kelli",
-                                "YenTing",
-                                "Srikanya",
-                                "Andy",
-                                "Min Jae",
-                                "Molly",
-                                "Marc"
-                            ],
-                            "full_name": [
-                                "Olive Jung",
-                                "Emily Lee",
-                                "Peggy McClelland",
-                                "Kelli Wilson",
-                                "YenTing Tung",
-                                "Srikanya Kundu",
-                                "Andy Vo",
-                                "Min Jae Song",
-                                "Molly Boutin",
-                                "Marc Ferrer"
-                            ],
-                            "email_list": [
-                                "jungoj@mail.nih.gov",
-                                "leeemm@nih.gov",
-                                "mcclellandp@mail.nih.gov",
-                                "wilsonkm2@mail.nih.gov",
-                                "tungy2@mail.nih.gov",
-                                "srikanya.kundu@nih.gov",
-                                "andy.vo@nih.gov",
-                                "songm5@nih.gov",
-                                "boutinme@mail.nih.gov",
-                                "ferrerm@mail.nih.gov"
-                            ],
-                            "project_id": 9666
-                        },
-                        "primaryKey": {
-                            "project_uid": "3afa87c4e5badaa0b82ab46b9a6b9409"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 0,
-                        "workstateEditsVersion": null
-                    },
-                    "highlight": {}
-                },
-                {
-                    "object": {
-                        "objectRid": "ri.phonograph2-objects.main.object.2661763a-da4a-4376-a9ec-780f325cb8a9",
-                        "objectTypeId": "hts-projects-axle",
-                        "title": "3D-Skin_Atopic_Dermatitis-Ferrer_ncats",
-                        "properties": {
-                            "project_type": "project",
-                            "user_id_list": [],
-                            "project": "3D-Skin_Atopic_Dermatitis-Ferrer_ncats",
-                            "team": "Bioprinting",
-                            "project_join": "3d skin_atopic_dermatitis ferrer_ncats",
-                            "first_name_list": [],
-                            "full_name": [
-                                "manisha kumari"
-                            ],
-                            "email_list": [],
-                            "project_id": 491
-                        },
-                        "primaryKey": {
-                            "project_uid": "c428b545575dc41a4dce93e0238fbaea"
-                        },
-                        "baseVersion": 3,
-                        "editsVersion": 1,
-                        "workstateEditsVersion": null
+                        "editsVersion": 57,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ny4="
                     },
                     "highlight": {}
                 }
@@ -1171,17 +1185,15 @@
             "Server",
             "nginx",
             "Date",
-            "Wed, 22 Jul 2020 16:55:41 GMT",
+            "Thu, 30 Jul 2020 20:40:38 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
-            "11500",
+            "927",
             "Connection",
             "close",
-            "Vary",
-            "Accept-Encoding",
             "X-B3-TraceId",
-            "6996c4278a71086b",
+            "785a99f5a46a8959",
             "X-Xss-Protection",
             "1; mode=block",
             "Node-Selection-Strategy",
@@ -1191,7 +1203,141 @@
             "Referrer-Policy",
             "strict-origin-when-cross-origin",
             "Server-Timing",
-            "server;dur=83",
+            "server;dur=112",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/edits/bulk/events/objectLocators",
+        "body": [
+            {
+                "locator": {
+                    "typeId": "hts-projects-axle",
+                    "primaryKey": {
+                        "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
+                    }
+                },
+                "request": {
+                    "customMetadata": {},
+                    "payload": {
+                        "type": "objectDeleted",
+                        "objectDeleted": {}
+                    }
+                }
+            },
+            {
+                "locator": {
+                    "typeId": "hts-projects-axle",
+                    "primaryKey": {
+                        "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
+                    }
+                },
+                "request": {
+                    "customMetadata": {},
+                    "payload": {
+                        "type": "objectDeleted",
+                        "objectDeleted": {}
+                    }
+                }
+            }
+        ],
+        "status": 200,
+        "response": [
+            "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
+            "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65"
+        ],
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:39 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "149",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "ee8769d81d15f453",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=230",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/objects/search/objects",
+        "body": {
+            "objectTypes": [
+                "hts-projects-axle"
+            ],
+            "filter": {
+                "type": "terms",
+                "terms": {
+                    "terms": [
+                        "Connector Test Team Modified"
+                    ],
+                    "field": "team.raw"
+                }
+            }
+        },
+        "status": 200,
+        "response": {
+            "totalHits": 0,
+            "hits": [],
+            "aggregations": {},
+            "nextPageToken": null
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:41 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "64",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "abc49651be80ca7a",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=54",
             "Content-Security-Policy",
             "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
             "X-Content-Type-Options",

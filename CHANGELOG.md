@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/LabShare/loopback-connector-palantir/compare/v1.0.0...v1.0.1) (2020-11-25)
+
+
+### Bug Fixes
+
+* fix lint issue ([b107e87](https://github.com/LabShare/loopback-connector-palantir/commit/b107e879bc050d4cab4086da2ac2376a1a986ca0))
+* use defualt matchAll for empty where filter ([410fee6](https://github.com/LabShare/loopback-connector-palantir/commit/410fee6e8a048b0464f33665b196c04116f07668))
+
 # 1.0.0 (2020-08-12)
 
 

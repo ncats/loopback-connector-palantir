@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/LabShare/loopback-connector-palantir/compare/v1.0.1...v1.1.0) (2020-12-02)
+
+
+### Features
+
+* add method to filter out palantir properties with ignore flag ([a01eab6](https://github.com/LabShare/loopback-connector-palantir/commit/a01eab6429939b637fa2449708b9226fa1630605))
+
 ## [1.0.1](https://github.com/LabShare/loopback-connector-palantir/compare/v1.0.0...v1.0.1) (2020-11-25)
 
 

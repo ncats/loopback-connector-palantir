@@ -73,6 +73,16 @@ describe('Palantir connector tests', () => {
     });
   });
 
+  it('should use default pageSize of 10000 when not specified', async () => {
+    const results = await Project.find({where: {team: testProjects[0].team}, order: 'title'});
+    expect(results.length).to.eql(3);
+  });
+
+  it('should apply pageSize to limit results', async () => {
+    const results = await Project.find({where: {team: testProjects[0].team}, order: 'title'}, {pageSize: 1});
+    expect(results.length).to.eql(1);
+  });
+
   it('should update object by id', async () => {
     const newProject = {
       title: 'Test-Project-10-modified',

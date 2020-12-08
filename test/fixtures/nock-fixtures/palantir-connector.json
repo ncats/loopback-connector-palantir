@@ -309,7 +309,7 @@
     {
         "scope": "https://nidap.nih.gov:443",
         "method": "POST",
-        "path": "/phonograph2/api/objects/search/objects",
+        "path": "/phonograph2/api/objects/search/objects?pageSize=10000",
         "body": {
             "objectTypes": [
                 "hts-projects-axle"
@@ -436,7 +436,7 @@
     {
         "scope": "https://nidap.nih.gov:443",
         "method": "POST",
-        "path": "/phonograph2/api/objects/search/objects",
+        "path": "/phonograph2/api/objects/search/objects?pageSize=10000",
         "body": {
             "objectTypes": [
                 "hts-projects-axle"
@@ -449,6 +449,120 @@
                     ],
                     "field": "team.raw"
                 }
+            },
+            "propertySelector": {
+                "propertyWhitelist": [
+                    "team"
+                ]
+            }
+        },
+        "status": 200,
+        "response": {
+            "totalHits": 3,
+            "hits": [
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-12",
+                        "properties": {
+                            "team": "Connector Test Team"
+                        },
+                        "primaryKey": {
+                            "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 56,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ni4="
+                    },
+                    "highlight": {}
+                },
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-11",
+                        "properties": {
+                            "team": "Connector Test Team"
+                        },
+                        "primaryKey": {
+                            "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 56,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ni4="
+                    },
+                    "highlight": {}
+                },
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.f7983934-56c4-43bb-9596-79f5fc38625a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-10",
+                        "properties": {
+                            "team": "Connector Test Team"
+                        },
+                        "primaryKey": {
+                            "project_uid": "3f3ace3786fc6a941d9f2f29fef44653"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 159,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy4xNTku"
+                    },
+                    "highlight": {}
+                }
+            ],
+            "aggregations": {},
+            "nextPageToken": null
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:31 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "1195",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "cc57a4ca4a595fc9",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=48",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/objects/search/objects?pageSize=10000",
+        "body": {
+            "objectTypes": [
+                "hts-projects-axle"
+            ],
+            "filter": {
+                "type": "matchAll",
+                "matchAll":{}
             },
             "propertySelector": {
                 "propertyWhitelist": [
@@ -678,7 +792,7 @@
     {
         "scope": "https://nidap.nih.gov:443",
         "method": "POST",
-        "path": "/phonograph2/api/objects/search/objects",
+        "path": "/phonograph2/api/objects/search/objects?pageSize=10000",
         "body": {
             "objectTypes": [
                 "hts-projects-axle"
@@ -901,7 +1015,7 @@
     {
         "scope": "https://nidap.nih.gov:443",
         "method": "POST",
-        "path": "/phonograph2/api/objects/search/objects",
+        "path": "/phonograph2/api/objects/search/objects?pageSize=10000",
         "body": {
             "objectTypes": [
                 "hts-projects-axle"
@@ -1118,7 +1232,7 @@
     {
         "scope": "https://nidap.nih.gov:443",
         "method": "POST",
-        "path": "/phonograph2/api/objects/search/objects",
+        "path": "/phonograph2/api/objects/search/objects?pageSize=10000",
         "body": {
             "objectTypes": [
                 "hts-projects-axle"
@@ -1293,7 +1407,7 @@
     {
         "scope": "https://nidap.nih.gov:443",
         "method": "POST",
-        "path": "/phonograph2/api/objects/search/objects",
+        "path": "/phonograph2/api/objects/search/objects?pageSize=10000",
         "body": {
             "objectTypes": [
                 "hts-projects-axle"
@@ -1348,5 +1462,85 @@
             "strict-origin-when-cross-origin"
         ],
         "responseIsBinary": false
-    }
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/objects/search/objects?pageSize=1",
+        "body": {
+            "objectTypes": [
+                "hts-projects-axle"
+            ],
+            "filter": {
+                "type": "terms",
+                "terms": {
+                    "terms": [
+                        "Connector Test Team"
+                    ],
+                    "field": "team.raw"
+                }
+            }
+        },
+        "status": 200,
+        "response": {
+            "totalHits": 1,
+            "hits": [
+                {
+                    "object": {
+                        "objectRid": "ri.phonograph2-objects.main.object.2bf40318-6458-4061-a8d8-7229a1fbf70a",
+                        "objectTypeId": "hts-projects-axle",
+                        "title": "Test-Project-11",
+                        "properties": {
+                            "project": "Test-Project-11",
+                            "team": "Connector Test Team Modified",
+                            "project_id": 2345
+                        },
+                        "primaryKey": {
+                            "project_uid": "b2e3288cbea20a18b407286a0ec28d5a"
+                        },
+                        "baseVersion": 3,
+                        "editsVersion": 57,
+                        "workstateEditsVersion": null,
+                        "entityVersion": "djEuMy41Ny4="
+                    },
+                    "highlight": {}
+                }
+            ],
+            "aggregations": {},
+            "nextPageToken": null
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:36 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "1382",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "130274d4180e31dc",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=84",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    }    
 ]

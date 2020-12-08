@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/LabShare/loopback-connector-palantir/compare/v1.1.0...v1.2.0) (2020-12-08)
+
+
+### Features
+
+* add default page size when fetching all objects ([6b3071f](https://github.com/LabShare/loopback-connector-palantir/commit/6b3071fed1f537e8f46e9d5882cdb3fa8efe4222))
+
 # [1.1.0](https://github.com/LabShare/loopback-connector-palantir/compare/v1.0.1...v1.1.0) (2020-12-02)
 
 

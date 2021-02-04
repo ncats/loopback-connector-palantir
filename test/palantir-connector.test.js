@@ -42,6 +42,14 @@ describe('Palantir connector tests', () => {
     await delay(2000);
   });
 
+  it('should create objects with noPolicy option set', async () => {
+    const result = await Project.create(testProjects, {noPolicy: true});
+    expect(result).to.be.an('array').that.is.not.empty;
+    projectId = result[0].id;
+    expect(projectId).to.not.be.empty;
+    await delay(2000);
+  });
+
   it('should get object back', async () => {
     const expectedResult = Object.assign({}, testProjects[0], {
       id: projectId,

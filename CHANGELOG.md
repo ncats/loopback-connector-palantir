@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/LabShare/loopback-connector-palantir/compare/v1.2.0...v1.3.0) (2021-02-05)
+
+
+### Features
+
+* add ability to pass in objectTypeId via options ([7c27c20](https://github.com/LabShare/loopback-connector-palantir/commit/7c27c200b1069999a1742a2f2ca19b8c237171f1))
+* add ability to pass in objectTypeId via options ([0655214](https://github.com/LabShare/loopback-connector-palantir/commit/065521456b4e7cd4f7a8f676b324b2d6ea8b011c))
+
 # [1.2.0](https://github.com/LabShare/loopback-connector-palantir/compare/v1.1.0...v1.2.0) (2020-12-08)
 
 

@@ -16,6 +16,68 @@
                     "type": "objectAdded",
                     "objectAdded": {
                         "properties": {
+                            "project": "Test-Project-13",
+                            "team": "Connector Test Team",
+                            "project_id": 7890,
+                            "policy": "NCATS"
+                        }
+                    }
+                }
+            }
+        },
+        "status": 200,
+        "response": "ri.phonograph2-objects.main.object.4b8caf66-bc78-4a39-ba6d-982737bdaf65",
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Thu, 30 Jul 2020 20:40:28 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "73",
+            "Connection",
+            "close",
+            "X-B3-TraceId",
+            "43faf597cf6642c6",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "Node-Selection-Strategy",
+            "BALANCED",
+            "X-Frame-Options",
+            "sameorigin",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Server-Timing",
+            "server;dur=254",
+            "Content-Security-Policy",
+            "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15768000; includeSubDomains",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nidap.nih.gov:443",
+        "method": "POST",
+        "path": "/phonograph2/api/storage/edits/events/objectLocator",
+        "body": {
+            "locator": {
+                "typeId": "hts-projects-axle",
+                "primaryKey": {
+                    "project_uid": "03ddab875efe56b6f8ad0ad7d44f1f0b"
+                }
+            },
+            "request": {
+                "customMetadata": {},
+                "payload": {
+                    "type": "objectAdded",
+                    "objectAdded": {
+                        "properties": {
                             "project": "Test-Project-12",
                             "team": "Connector Test Team",
                             "project_id": 3456,

@@ -16,7 +16,13 @@ describe('Palantir connector tests', () => {
     title: 'Test-Project-12',
     team: 'Connector Test Team',
     projectId: 3456
-  }];
+  },
+  {
+    title: 'Test-Project-13',
+    team: 'Connector Test Team',
+    projectId: 7890
+  },
+];
 
   before(() => {
     const ds = global.getDataSource();

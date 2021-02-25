@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/LabShare/loopback-connector-palantir/compare/v1.3.0...v1.3.1) (2021-02-25)
+
+
+### Bug Fixes
+
+* cast timeout to number ([404fed9](https://github.com/LabShare/loopback-connector-palantir/commit/404fed92fd9a90268199a97e84c88cafccca4a08))
+
 # [1.3.0](https://github.com/LabShare/loopback-connector-palantir/compare/v1.2.0...v1.3.0) (2021-02-05)
 
 

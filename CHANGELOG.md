@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/LabShare/loopback-connector-palantir/compare/v1.3.1...v1.4.0) (2021-04-13)
+
+
+### Bug Fixes
+
+* addressing pr comments ([294b9fa](https://github.com/LabShare/loopback-connector-palantir/commit/294b9fa294476aeaa23e3a2f24f63cdf82cd9681))
+* lint fix ([7c98639](https://github.com/LabShare/loopback-connector-palantir/commit/7c98639cbd52f276080784b036d24456b73bba7c))
+
+
+### Features
+
+* ppp-1910:added logic for non palantir fields ([4b115bc](https://github.com/LabShare/loopback-connector-palantir/commit/4b115bc230707f3fd9338b613f5e9d5af7bd1ef2))
+
 ## [1.3.1](https://github.com/LabShare/loopback-connector-palantir/compare/v1.3.0...v1.3.1) (2021-02-25)
 
 

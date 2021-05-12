@@ -26,7 +26,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bluebird": "^3.7.1",
-    "debug": "^4.1.1",
+    "debug": "^4.3.2",
     "lodash": "^4.17.15",
     "loopback-connector": "^4.11.0",
     "md5": "^2.2.1"

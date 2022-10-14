@@ -1,0 +1,8 @@
+node_modules
+coverage
+.idea
+.nyc_output/
+.env
+# development file
+development.js
+.vscode/launch.json

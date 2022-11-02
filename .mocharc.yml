@@ -1,0 +1,5 @@
+recursive: true
+file:
+  - 'test/init.js'
+timeout: 100000
+exit: true

@@ -1,0 +1,32 @@
+language: node_js
+node_js:
+  - lts/*
+  - node
+before_install:
+  - |-
+    if [ $TRAVIS_PULL_REQUEST == false ] && [ $TRAVIS_BRANCH == "master" ];
+     then
+        echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc;
+      else
+        echo "//registry.npmjs.org/:_authToken=\${NPM_INSTALL_TOKEN}" > ~/.npmrc;
+    fi
+  - npm install -g codecov
+install:
+  - npm install
+script:
+  - npm run lint
+  - npm test
+after_success:
+  - codecov
+jobs:
+  allow_failures:
+    - node_js: node
+  include:
+    - stage: release
+      if: branch = master
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npm run semantic-release

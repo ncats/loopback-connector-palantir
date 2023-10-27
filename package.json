@@ -48,10 +48,10 @@
     "eslint-config-loopback": "^13.1.0",
     "husky": "^3.1.0",
     "loopback-datasource-juggler": "^4.21.2",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nock": "^11.9.1",
     "nyc": "^14.1.1",
-    "semantic-release": "^15.13.31"
+    "semantic-release": "^22.0.5"
   },
   "resolutions": {
     "lodash": "4.17.21"

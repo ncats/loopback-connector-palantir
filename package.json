@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/LabShare/loopback-connector-palantir#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^1.6.0",
     "bluebird": "^3.7.1",
     "debug": "^4.1.1",
     "lodash": "^4.17.15",
@@ -52,6 +52,9 @@
     "nock": "^11.9.1",
     "nyc": "^14.1.1",
     "semantic-release": "^15.13.31"
+  },
+  "resolutions": {
+    "lodash": "4.17.21"
   },
   "release": {
     "verifyConditions": [
